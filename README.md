@@ -1,9 +1,20 @@
-## Llama-3.2-3B-Instruction-LoRA-Adapter
-This repo contains a LoRA adapter finetuned on Meta Llama 3.2 (3B), trained using QLoRA and SFTTrainer on an instruction dataset derived from the Databricks Dolly instruction corpus.
+# LLaMA-3.2-3B Instruction LoRA Fine-Tuning Notebook
 
-Hugging Face model: [MagicaNeko/llama-3b-lora-dolly](https://huggingface.co/MagicaNeko/llama-3b-lora-dolly)
+This repository contains workflow notebooks for fine-tuning Meta LLaMA 3.2 (3B) using **LoRA + QLoRA** on an instruction dataset derived from the **Databricks Dolly** corpus. The notebooks demonstrates **parameter-efficient fine-tuning**, including dataset preprocessing, training, and evaluation.
 
-Colab Training notebook: [Colab link](https://colab.research.google.com/drive/1awDTodQo_5eYVC0OeU8IhQNYSsR7SBO2?usp=sharing)
+You can run the full fine-tuning workflow **on a free-tier Google Colab T4 GPU**.
+
+---
+
+## Notebook
+
+- **Training Notebook:** [Colab link](https://colab.research.google.com/drive/1awDTodQo_5eYVC0OeU8IhQNYSsR7SBO2?usp=sharing)  
+
+## Hugging Face Model
+
+The LoRA adapter, tokenizer, and dataset are available on Hugging Face:
+
+- **Repo:** [MagicaNeko/llama-3b-lora-dolly](https://huggingface.co/MagicaNeko/llama-3b-lora-dolly)
 
 ## Model Details
 - **Base Model:** [meta-llama/Llama-3.2-3B](https://huggingface.co/meta-llama/Llama-3.2-3B)
