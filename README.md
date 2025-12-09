@@ -1,4 +1,4 @@
-# LLaMA-3.2-3B Instruction LoRA Fine-Tuning Notebook
+# Llama-3.2-3B Instruction LoRA Fine-Tuning 
 
 This repository contains workflow notebooks for fine-tuning Meta LLaMA 3.2 (3B) using **LoRA + QLoRA** on an instruction dataset derived from the **Databricks Dolly** corpus. The notebooks demonstrates **parameter-efficient fine-tuning**, including dataset preprocessing, training, and evaluation.
 
