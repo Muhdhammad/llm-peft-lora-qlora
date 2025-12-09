@@ -1,6 +1,7 @@
 ## Llama-3.2-3B-Instruction-LoRA-Adapter
 This repo contains a LoRA adapter finetuned on Meta Llama 3.2 (3B), trained using QLoRA and SFTTrainer on an instruction dataset derived from the Databricks Dolly instruction corpus.
 
+Hugging Face model: [MagicaNeko/llama-3b-lora-dolly](https://huggingface.co/MagicaNeko/llama-3b-lora-dolly)
 
 ## Model Details
 - **Base Model:** [meta-llama/Llama-3.2-3B](https://huggingface.co/meta-llama/Llama-3.2-3B)
